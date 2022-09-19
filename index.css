@@ -1,0 +1,44 @@
+#tarjetero{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    padding-top: 5%;
+    padding-bottom: 5%;
+}
+
+.tarjetas{
+    min-width: 30%;
+    border: 2px solid white;
+    margin: 1.5%;
+    background-color: rgba(255, 255, 255, 0.5);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', 'Verdana';
+}
+
+.foto{
+    width: 96%;
+    height: 200px;
+    margin: 2%;
+    object-fit: cover;
+    overflow: hidden;
+}
+
+@media (max-width: 630px) {
+    .tarjetas {
+      width: 90%;
+      height: auto;
+    }
+  
+    #tarjetero {
+      display: flex;
+      flex-direction: column;
+      justify-content: space-around;
+      align-items: center;
+      gap: 20px;
+    }
+  
+    header {
+      flex-direction: column;
+      height: 200px;
+    }
+  }

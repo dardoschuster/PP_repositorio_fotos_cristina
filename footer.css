@@ -1,0 +1,20 @@
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+#pie {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding-left: 5%;
+    height: 80px;
+    background-color: #000000;
+    color: rgb(255, 203, 211);
+    font-size:calc(12px + 0.3vw);
+}
+
+h2{
+    padding-left: 2%;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}

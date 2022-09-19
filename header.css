@@ -1,0 +1,32 @@
+#encabezado {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    height: 10%;
+    background-color: #000000;
+    background-position: 10%;
+    color: rgb(233, 198, 203);
+    font-size:calc(10px + 0.3vw);
+    margin-top: 4%;
+}
+
+#encabezado_texto{
+    margin-left: 25%;
+}
+
+#logo{
+    width: 25%;
+    position: absolute;
+    margin-top: -3%;
+    margin-left: 1%;
+}
+
+body{
+    background-color: rgb(255, 203, 211);
+    color:rgb(54, 54, 54)
+}
+
+h1{
+    padding-left: 2%;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}

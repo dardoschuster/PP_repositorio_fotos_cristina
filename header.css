@@ -30,3 +30,30 @@ h1{
     padding-left: 2%;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
+
+#carga{
+    color: rgb(233, 198, 203);
+    text-decoration: underline;
+    align-self: center;
+    padding-left: 25%;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 100%;
+}
+
+#carga:hover{
+    cursor:pointer;
+}
+
+#busqueda{
+    width: 10%;
+    position: absolute;
+    margin-top: -2%;
+    color: #000000;
+}
+
+#busqueda_texto{
+    position: absolute;
+    margin-top: -3%;
+    color: #000000;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
